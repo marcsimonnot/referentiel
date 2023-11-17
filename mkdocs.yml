@@ -1,0 +1,43 @@
+site_name: Référentiel des métadonnées descriptives du spectacle
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+markdown_extensions:
+  - toc:
+      permalink: true
+      title: Sur cette page
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - À propos:
+    - Bienvenue: 'index.md'
+    - Contribuer: 'contribuer.md'
+    - Crédits: 'credits.md'
+  - Avant de commencer:
+    - Objectifs: 'avant_de_commencer/objectifs.md'
+    - Composantes: 'avant_de_commencer/composantes.md'
+    - Lignes directrices: 'avant_de_commencer/lignes_directrices.md'
+  - Modèle:
+    - Structure et relations: 'modele/structure_et_relations.md'
+    - Classes principales: 'modele/classes_principales.md'
+    - Classes secondaires: 'modele/classe_secondaires.md'
+    - Propriétés des classes: 'modele/proprietes_des_classes.md'
+    - Vocabulaires contrôlés: 'modele/vocabulaires_controles.md'
+  - Références:
+    - Propriétés des classes:
+      - Spectacle: 'references/proprietes/spectacle.md'
+      - Représentation: 'references/proprietes/representation.md'
+    - Vocabulaires contrôlés:
+      - Types de contributions: 'references/vocabulaires/types_de_contributions.md'
+      - Types de contenus: 'references/vocabulaires/types_de_contenus.md'
