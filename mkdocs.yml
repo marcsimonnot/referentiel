@@ -38,6 +38,8 @@ nav:
     - Propriétés des classes:
       - Spectacle: 'references/proprietes/spectacle.md'
       - Représentation: 'references/proprietes/representation.md'
+    - Types de propriétés: 'references/types.md'
     - Vocabulaires contrôlés:
       - Types de contributions: 'references/vocabulaires/types_de_contributions.md'
       - Types de contenus: 'references/vocabulaires/types_de_contenus.md'
+    - Exemples: 'references/exemples.md'
